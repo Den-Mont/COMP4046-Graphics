@@ -10,7 +10,7 @@ radius_outer = 150
 radius_inner = 75
 
 # Create the canvas
-canvas = GraphWin("ASG1", Cw, Ch)
+canvas = GraphWin("ASG1", Cw, Ch, autoflush=False)
 canvas.setBackground("white")
 
 # Coordinates for the center of the circle (making space for RGB values)
