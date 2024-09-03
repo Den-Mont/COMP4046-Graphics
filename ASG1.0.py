@@ -27,7 +27,7 @@ rgb_text = Text(Point(center_x, center_y + 30), "")
 rgb_text.draw(canvas)
 
 # Create the Quit button
-quit_button = Button(canvas, Point(center_x, Ch - 25), 60, 30, "Quit")
+quit_button = Button(canvas, Point(center_x, Ch - 25), 60, 30, "Exit")
 quit_button.activate()
 
 # Main event loop

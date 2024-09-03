@@ -1,6 +1,6 @@
 from graphics import *
 from button import *
-from color_mixer import mix_colors
+from color_mixer import *
 
 # Constants
 Cw, Ch = 500, 400  # Increase height to accommodate K
